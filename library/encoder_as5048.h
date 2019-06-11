@@ -20,6 +20,7 @@ class AS5048Encoder {
       void Zero();
       uint16_t SampleRaw();
       uint16_t SampleRawZeroed();
+      uint16_t GetZeroPosition();
     private:
       mbed::SPI spi_;
       uint16_t raw_position_;

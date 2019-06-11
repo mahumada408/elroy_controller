@@ -3,11 +3,11 @@
         "module": "[fill]", 
         "size": {
             ".data-delta": 0, 
-            ".text-delta": 0, 
-            ".bss": 24, 
+            ".text-delta": 4, 
+            ".bss": 28, 
             ".data": 8, 
             ".bss-delta": 0, 
-            ".text": 70
+            ".text": 86
         }
     }, 
     {
@@ -44,14 +44,25 @@
         }
     }, 
     {
+        "module": "library/encoder_as5048.o", 
+        "size": {
+            ".data-delta": 0, 
+            ".text-delta": -12, 
+            ".bss": 0, 
+            ".data": 0, 
+            ".bss-delta": 0, 
+            ".text": 52
+        }
+    }, 
+    {
         "module": "main.o", 
         "size": {
             ".data-delta": 0, 
-            ".text-delta": 0, 
-            ".bss": 308, 
+            ".text-delta": 8, 
+            ".bss": 176, 
             ".data": 0, 
             ".bss-delta": 0, 
-            ".text": 366
+            ".text": 298
         }
     }, 
     {
@@ -133,7 +144,7 @@
     }, 
     {
         "summary": {
-            "static_ram": 10512, 
+            "static_ram": 10384, 
             "total_flash_delta": 0, 
             "static_ram_delta": 0, 
             "total_flash": 58876

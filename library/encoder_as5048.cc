@@ -22,3 +22,7 @@ uint16_t AS5048Encoder::SampleRaw() {
 uint16_t AS5048Encoder::SampleRawZeroed() {
     return SampleRaw() - zero_position_;
 }
+
+uint16_t AS5048Encoder::GetZeroPosition() {
+    return zero_position_;
+}
